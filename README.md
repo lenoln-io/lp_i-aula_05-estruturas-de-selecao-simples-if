@@ -1,4 +1,4 @@
-# 🎯 Estruturas de Seleção Simples - Apresentação Interativa
+# 🎯 Estruturas de Seleção Simples
 
 Uma apresentação educacional interativa sobre **Estruturas de Seleção Simples (if)** desenvolvida para o curso Técnico de Informática - Lógica de Programação I.
 
