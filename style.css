@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.slide-enter {
+	animation: slideEnter 0.6s ease-out forwards;
+}
+
+@keyframes slideEnter {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.code-highlight {
+	background: linear-gradient(120deg, #a8e6cf 0%, #dcedc1 100%);
+	padding: 2px 6px;
+	border-radius: 4px;
+	font-weight: 500;
+}
+
+.interactive-hover:hover {
+	transform: translateY(-2px);
+	transition: all 0.3s ease;
+}
+
+.glass-effect {
+	backdrop-filter: blur(10px);
+	background: rgba(255, 255, 255, 0.8);
+}
